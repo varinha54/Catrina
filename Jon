@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Venda Automática de FTs</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>Compra de Foto Exclusiva</h1>
+      <p>Adquira agora a sua foto e receba o link automaticamente após o pagamento!</p>
+    </div>
+  </header>
+
+  <section class="product">
+    <div class="product-info">
+      <img src="foto-para-venda.jpg" alt="Foto Exclusiva" />
+      <h2>Foto Exclusiva</h2>
+      <p>R$ 50,00</p>
+      <p>Compre agora e receba o link para download imediatamente após a confirmação do pagamento via Pix!</p>
+      <a href="https://link-para-pix" class="buy-button">Comprar Agora</a>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Venda Automática de FTs</p>
+  </footer>
+</body>
+</html>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 2.5rem;
+}
+
+header p {
+  font-size: 1.2rem;
+}
+
+.product {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  text-align: center;
+}
+
+.product-info {
+  background-color: white;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  max-width: 400px;
+}
+
+.product-info img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.product-info h2 {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+}
+
+.product-info p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.buy-button {
+  background-color: #ff6600;
+  color: white;
+  padding: 15px 30px;
+  font-size: 1.2rem;
+  text-decoration: none;
+  border-radius: 8px;
+  display: inline-block;
+}
+
+.buy-button:hover {
+  background-color: #cc5200;
+}
+
+footer {
+  text-align: center;
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  margin-top: 40px;
+}
